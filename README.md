@@ -1,1 +1,1 @@
-# odin-recipes
+# A project built to practice key HTML elements: images, lists, links and paragraphs.
