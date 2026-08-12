@@ -1,0 +1,42 @@
+body {
+    background-color: #D4A373;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    color: #D4A373;
+    text-decoration: #D4A373;
+    background-color: #FAEDCD;
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: double #D4A373;
+    margin: 30px auto;  
+    
+}
+
+h1 {
+    box-sizing: border-box;
+    width: 500px;
+    border: double #D4A373;
+    margin-bottom: 20px;
+    text-align: end;
+    padding: 15px;
+}
+
+li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    box-sizing: border-box;
+    width: 500px;
+    height: 140px;
+    border: #D4A373;
+    margin-bottom: 20px;
+}
