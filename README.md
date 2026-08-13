@@ -1,1 +1,1 @@
-A project built to practice key HTML elements: images, lists, links and paragraphs.
+A project built to practice key HTML elements and CSS selectors.
