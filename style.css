@@ -1,36 +1,74 @@
 body {
     background-color: #D4A373;
     font-family: 'Times New Roman', Times, serif;
+    color: #794c22;  
 }
 
 .card {
-    color: #D4A373;
     text-decoration: #D4A373;
     background-color: #FAEDCD;
-    height: 600px;
+    height: 630px;
     width: 500px;
     padding: 50px;
     border: double #D4A373;
-    margin: 30px auto;  
-    
+    margin: 30px auto;   
+}
+
+.card-recipes {
+    text-decoration: #D4A373;
+    background-color: #FAEDCD;
+    height: auto;
+    width: 500px;
+    padding: 50px;
+    border: double #D4A373;
+    margin: 30px auto;   
 }
 
 h1 {
     box-sizing: border-box;
-    width: 500px;
+    color: #916840;
+    width: auto;
     border: double #D4A373;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: end;
     padding: 15px;
 }
 
+p {
+    margin-top: 1px;
+    text-align: justify;
+}
+
+ul, ol {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 li {
     list-style-type: none;
     margin-left: -40px;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.1;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #D4A373;
+    border: none;   
+    font-weight: 700px 
 }
 
 a {
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #FAEDCD;
+    font-weight: 700;
 }
 
 img {
